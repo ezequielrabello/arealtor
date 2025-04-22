@@ -17,7 +17,7 @@ function NavBar() {
                 <div className="navbar-content">
                     <div className="brand-and-toggler flex flex-sb">
                         <Link to="/" className="navbar-brand text-uppercase fw-7 text-white ls-2">
-                        Alexsey</Link>
+                        Ezequiel</Link>
                         <button type="button" className="navbar-open-btn text-white" onClick={() => setNavToggler(!navToggler)}>
                             <FaBars size={30}/>
                         </button>
@@ -41,7 +41,7 @@ function NavBar() {
                                 <li className="nav-item">
                                     <Link 
                                         to="/" className="nav-link text-white ls-2 text-uppercase f2-6 fs-22">
-                                            works
+                                            properties
                                     </Link>
                                 </li>
                                 <li className="nav-item">

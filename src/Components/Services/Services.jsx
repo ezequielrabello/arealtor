@@ -11,7 +11,7 @@ function Services() {
                 <div className="services-content">
                     <div className="section-title">
                         <h3 className="text-brown">my <span className="text-dark">services</span></h3>
-                        <p className="text">I offer the right solution for you digital business.</p>
+                        <p className="text">I provide the assistance you need to find your dream home.</p>
                     </div>
                     <div className="services-list grid">
                         {services.map((services, index) => {

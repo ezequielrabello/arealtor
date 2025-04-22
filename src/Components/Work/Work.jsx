@@ -19,7 +19,7 @@ function Work() {
         <div className="work section-p bg-grey" id="work">
             <div className={imageModal ? "image-box show-image-box" : "image-box"}>
                 <div className="image-box-content">
-                    <img src={imageSource} alt="" />
+                    <img src={imageSource || null}  />
                     <span className="image-box-close-btn" onClick={() => setImageModal(false)}><ImCancelCircle size={30}/></span>
                 </div>
             </div>

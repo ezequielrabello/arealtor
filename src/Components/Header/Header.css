@@ -1,7 +1,7 @@
 header {
     min-height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), 
-    url("../../assets/images/321342866_698508071785881_1271964619448016071_n.jpg") 50% 25%/cover no-repeat;
+    url("../../assets/images/EzequielRabello_629crx_LOWRES.jpg") 50% 25%/cover no-repeat;
 }
 
 header .container {
@@ -14,7 +14,7 @@ header .container {
     font-size: 28px;
     line-height: 1.4;
     margin-top: 1.8rem;
-    max-width: 600px;
+    max-width: 650px;
 }
 
 header .btn-groups {

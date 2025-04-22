@@ -2,33 +2,28 @@ import images from "./images";
 
 const services = [
     {
-        image: `${images.services_img_1}`,
-        title: "Web Design",
-        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
-    },
-    {
-        image: `${images.services_img_2}`,
-        title: "Branding",
+        image: `${images.services_img_5}`,
+        title: "Listing and Marketing",
         paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
     },
     {
         image: `${images.services_img_3}`,
-        title: "UX Design",
+        title: "Property Showings",
+        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
+    },
+    {
+        image: `${images.services_img_2}`,
+        title: "Negotiation",
         paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
     },
     {
         image: `${images.services_img_4}`,
-        title: "Logo Create",
+        title: "Contract Management",
         paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
     },
     {
-        image: `${images.services_img_5}`,
-        title: "Illustration",
-        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
-    },
-    {
-        image: `${images.services_img_6}`,
-        title: "Graphics",
+        image: `${images.services_img_1}`,
+        title: "Guidance",
         paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
     },
 ];
@@ -96,7 +91,7 @@ const about_stats = [
     },
 ];
 
-const testimonials = [
+const properties = [
     {
         name: "50251 Smith RD",
         post: "Negley, Ohio",
@@ -138,4 +133,4 @@ const logos = [
     },
 ];
 
-export {services, works, work_process, about_stats, testimonials, logos};
+export {services, works, work_process, about_stats, properties, logos};
