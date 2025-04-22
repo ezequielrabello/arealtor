@@ -11,6 +11,7 @@ function Properties() {
         infinite: true,
         autoplay: true,
         speed: 300,
+        fade: true,
         slidesToShow: 1,
         slidesToScroll: 1,
       };
@@ -27,8 +28,8 @@ function Properties() {
                                         <img src={property.image} alt="House" />
                                     </div>
                                     <div className="about-property">
-                                        <p className="text text-white fw-7 fs-20 address">{property.name}</p>
-                                        <p className="text text-white fw-7 fs-20 city">{property.post}</p>
+                                        <p className="text text-white fw-7 fs-14 address">{property.name}</p>
+                                        <p className="text text-white fw-7 fs-14 city">{property.post}</p>
                                     </div>
                                 </div>
                             )

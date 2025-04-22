@@ -1,5 +1,7 @@
 .input-group {
-    min-width: 400px;
+    width: 100%;
+    max-width: 500px;
+    padding: 0 1rem; 
     margin: 0 auto;
 }
 
@@ -11,7 +13,7 @@
     flex-direction: column;
 }
 
-.input {
+.input, textarea {
     width: 100%;
     background-color: transparent;
     border: 2px solid var(--light-grey-color);
@@ -25,7 +27,8 @@
 
 
 .submit-btn {
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
     transition: var(--transition);
 }
 

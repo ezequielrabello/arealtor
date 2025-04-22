@@ -24,6 +24,12 @@ function Contact() {
     function handleSubmit(e) {
         e.preventDefault();
         console.log("Form submitted", formData)
+
+        setFormData({
+            name: "",
+            email: "",
+            message: ""
+        });
     }
 
 
@@ -33,7 +39,7 @@ function Contact() {
                 <h1 className="text text-brown fw-7">Contact me</h1>
             </div>
             <div className="input-section flex ">
-                <form className="input-group flex">
+                <form className="input-group flex" onSubmit={handleSubmit}>
                     <input 
                         type="text" 
                         id="name"
@@ -61,7 +67,7 @@ function Contact() {
                     </textarea>
 
                 </form>
-                <button type="button" className="submit-btn bg-brown" onClick={handleSubmit}>
+                <button type="submit" className="submit-btn bg-brown">
                     Submit
                 </button>
             </div>

@@ -1,7 +1,7 @@
 .newsLetter {
     background: linear-gradient(rgba(0,0,0,0.7)), url("../../assets/images/subscribe_background.jpeg") center/cover no-repeat;
     width: 100%;
-    min-width: 65vh;
+    min-height: 65vh;
 }
 
 .newsletter-form{
