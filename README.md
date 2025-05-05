@@ -7,6 +7,9 @@ A sleek and responsive portfolio website for real estate professionals. Built wi
 👉 [View the live website](https://arealtor.vercel.app)  
 👉 [Contact Me](#contact)
 
+## 📸 Screenshot
+
+
 ## 📸 Features
 
 - 🔄 Responsive picture slider
@@ -26,4 +29,29 @@ A sleek and responsive portfolio website for real estate professionals. Built wi
 - **React Slick (for sliders)**
 
 ## 🧱 Folder Structure
+src/
+├── components/
+│ ├── Common/
+│ └── Portfolio/
+├── data/
+├── pages/
+├── assets/
+└── App.jsx
 
+## 📧 Contact
+
+If you'd like a custom portfolio like this or want to reach out for collaboration:
+
+**Ezequiel Rabello**  
+📧 rabello950@gmail.com
+🌐 [Linkedin](https://www.linkedin.com/in/ezequiel-rabello-1587002aa/)
+
+## 🛠️ Setup
+
+Clone this repo and run locally:
+
+```bash
+git clone https://github.com/your-username/realtor-portfolio.git
+cd realtor-portfolio
+npm install
+npm run dev
