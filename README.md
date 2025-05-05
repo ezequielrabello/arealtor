@@ -1,12 +1,29 @@
-# React + Vite
+# 🏡 Realtor Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive portfolio website for real estate professionals. Built with **React** and styled for modern design, this project showcases properties, services, and allows clients to get in touch easily.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [View the live website](https://arealtor.vercel.app)  
+👉 [Contact Me](#contact)
 
-## Expanding the ESLint configuration
+## 📸 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔄 Responsive picture slider
+- 🖼️ Portfolio cards with image and description
+- ✉️ "Contact Me" form (email submission)
+- 🗞️ Newsletter subscription
+- 🎨 Clean animations and styling
+- ⚙️ Built with React and deployed on Vercel
+
+## 📂 Tech Stack
+
+- **React**
+- **Vite**
+- **CSS / Styled Components / MUI**
+- **React Icons**
+- **Email submission (Formspree or similar)**
+- **React Slick (for sliders)**
+
+## 🧱 Folder Structure
+
