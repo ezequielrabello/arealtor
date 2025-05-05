@@ -8,7 +8,7 @@ A sleek and responsive portfolio website for real estate professionals. Built wi
 👉 [Contact Me](#contact)
 
 ## 📸 Screenshot
-
+![Screenshot](./src/assets/laptop.jpg) 
 
 ## 📸 Features
 
